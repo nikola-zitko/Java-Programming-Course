@@ -1,0 +1,9 @@
+{
+  "brookerURL":"tcp://localhost:1883",
+  "sensors":[
+    {"name":"Temperature","factor":10,"rangeStart":-32668.0,"rangeEnd":32668.0,"unit":"C"},
+    {"name":"Pressure","factor":1000,"rangeStart":-0.0,"rangeEnd":65336.0,"unit":"Bar"},
+    {"name":"Consumption","factor":1,"rangeStart":0.0,"rangeEnd":65336.0,"unit":"Litre"},
+    {"name":"Cubic Consumption","factor":10,"rangeStart":0.0,"rangeEnd":65336.0,"unit":"Cubic metre"}
+  ]
+}
