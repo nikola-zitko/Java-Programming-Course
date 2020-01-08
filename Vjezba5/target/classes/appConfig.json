@@ -1,0 +1,11 @@
+{
+  "broker_protocol": "tcp",
+  "broker_host": "localhost",
+  "broker_port": 1883,
+  "topics": [
+    "Pressure",
+    "Temperature",
+    "Consumption",
+    "Cubic Consumption"
+  ]
+}

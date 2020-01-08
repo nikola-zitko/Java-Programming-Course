@@ -9,7 +9,7 @@ class WaterMeasurer {
     private SensorData[] sensors;
     private MqttClient client;
 
-    private MqttClient ClientStart(){
+    MqttClient ClientStart(){
         MqttClient client = null;
         String clientId = "Client";
         try
@@ -40,7 +40,7 @@ class WaterMeasurer {
                     System.exit(1);
                 }
             }
-            Thread.sleep(5000);
+            Thread.sleep(1000);
         }
     }
 
